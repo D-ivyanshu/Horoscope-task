@@ -1,22 +1,23 @@
-Daily Horoscope & Journal App
+# Daily Horoscope & Journal App
+A minimal mobile application built with React Native that combines daily horoscopes with personal journaling. It allows users to check their horoscope for the day, select their zodiac sign, and write daily reflections that are stored locally on their device.
 
-A minimal React Native app that combines daily horoscopes with personal journaling.
-It allows users to check their horoscope for the day, select their zodiac sign, and write daily reflections that are stored locally on their device.
+### Features
+- Zodiac Sign Selection: Choose your zodiac sign from a dropdown menu.
 
-Features
+- Daily Horoscopes: View today's horoscope (currently static content).
 
-Select zodiac sign via dropdown
+- Journaling: Write and save daily reflections.
 
-View today’s horoscope (static for now)
+- Past Entries: View and manage your past journal entries.
 
-Navigate between Home and Journal screens
+- Screen Navigation: Seamlessly navigate between the Home and Journal screens.
+- 
+![1000073405](https://github.com/user-attachments/assets/ececd639-93e5-48e4-b75c-69b93375aa49)
 
-Write and save daily reflections (local storage)
+![1000073407](https://github.com/user-attachments/assets/6dc2102e-4b82-4fbb-bc4e-aa2db3988d13)
 
-View past journal entries
 
-Tech Stack
-
+### Tech Stack
 Framework: React Native
 
 Navigation: React Navigation
@@ -25,32 +26,21 @@ Local Storage: AsyncStorage
 
 UI: Custom styled components
 
-Installation & Setup
+### Installation & Setup
+Follow these steps to get the app running on your local machine.
 
-Clone this repository and run locally:
-
-# Clone repo
-
-git clone https://github.com/your-username/astrojournal.git
+```
+git clone [https://github.com/D-ivyanshu/Horoscope-task.git)
 cd astrojournal
-
-# Install dependencies
-
 npm install
-
-# Start Expo project
-
 npx expo start
+```
 
-Run on device or emulator:
+ 
+### Project Structure
+The project is organized to promote clean and maintainable code.
 
-Press i for iOS simulator
-
-Press a for Android emulator
-
-Scan QR code using Expo Go app
-
-📂 Project Structure
+```
 /AstroJournal
 ├── /src
 │ ├── /screens
@@ -76,38 +66,33 @@ Scan QR code using Expo Go app
 │ ├── /constants
 │ │ ├── constants.ts
 │ ├── App.js
-│ ├── navigation.js
+│ └── navigation.js
 ├── package.json
-├── README.md
+└── README.md
+```
 
-Roadmap / Future Enhancements
+## Roadmap & Future Enhancements
+This is an initial version of the app, with many planned improvements:
 
-This is just the beginning. Planned improvements include:
+#### Horoscope Features
+- Show daily, weekly, and monthly predictions.
 
-Horoscope Features
+- Add love, career, and health categories.
 
-Show daily, weekly, monthly predictions
+#### Journal Features
+- Auto-save journal entries (remove the manual save step).
 
-Add love, career, health categories
+- Add tags or moods for filtering entries.
 
-Journal Features
+- Enable search and sort functionality.
 
-Auto-save journal entries (remove manual save step)
+#### UI Improvements
+- Implement a dark mode and custom themes.
 
-Add tags or moods for filtering entries
+- Add smooth animations and transitions.
+- Include personalized zodiac animations.
 
-Enable search and sort functionality
+#### General Enhancements
+- Add the ability to share horoscopes or journal reflections.
 
-UI Improvements
-
-Dark mode / custom themes
-
-Smooth animations & transitions
-
-Personalized zodiac animations
-
-Enhancements
-
-Share horoscope or journal reflections
-
-AI-powered insights & recommendations from journal text
+- Integrate AI-powered insights and recommendations based on journal text.
