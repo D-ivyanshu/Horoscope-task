@@ -16,8 +16,9 @@ export async function schedulePushNotification(content: any) {
   await Notifications.scheduleNotificationAsync({
     content: content,
     trigger: {
-      type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL,
-      seconds: 60,
+      type: Notifications.SchedulableTriggerInputTypes.DAILY,
+      hour: 10,
+      minute: 0,
     },
   });
 }
