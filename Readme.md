@@ -11,11 +11,10 @@ A minimal mobile application built with React Native that combines daily horosco
 - Past Entries: View and manage your past journal entries.
 
 - Screen Navigation: Seamlessly navigate between the Home and Journal screens.
-- 
-![1000073405](https://github.com/user-attachments/assets/ececd639-93e5-48e4-b75c-69b93375aa49)
 
-![1000073407](https://github.com/user-attachments/assets/6dc2102e-4b82-4fbb-bc4e-aa2db3988d13)
-
+### Images for reference
+<img width="300" height="500" alt="1  register" src="https://github.com/user-attachments/assets/ececd639-93e5-48e4-b75c-69b93375aa49">
+<img width="300" height="500" alt="1  register" src="https://github.com/user-attachments/assets/6dc2102e-4b82-4fbb-bc4e-aa2db3988d13">
 
 ### Tech Stack
 Framework: React Native
